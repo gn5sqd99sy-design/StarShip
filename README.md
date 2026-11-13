@@ -90,3 +90,4 @@ Algne commit `a6a4e49` sisaldas ainult ühendatud lõppversiooni. Eraldi ajalool
 Osade 2–6 allikad on vastavad DOCX-failid. Esimese osa originaalpilt puudub: selle taastamine põhineb teise osa tausta ja laeva joonistamisel ning ülesande kirjeldusel. Iga osa sisaldab päris käivitatavat HTML-i ja sellele etapile vastavat JavaScripti. Taastatud osade HTML-kestad on lisatud nüüd. Osades 1–5 on väli 640 × 480, osas 6 suurendatud 800 × 600; algsete osade HTML-mõõtmeid ei olnud võimalik kinnitada.
 
 - [StarShip 1 — Kosmoselaev](parts/1/index.html): [päritolu ja kirjeldus](parts/1/README.md).
+- [StarShip 2 — Kosmoselaeva juhtimine](parts/2/index.html): [päritolu ja kirjeldus](parts/2/README.md).
