@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarShip — Kosmoselaev</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; padding: 24px 16px; background: #070b19; color: #e4f7ff; font-family: monospace; }
+    main { width: min(100%, 802px); margin: auto; }
+    header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+    h1 { color: #73eed8; letter-spacing: .12em; font-size: 28px; }
+    header p { color: #7185ad; }
+    canvas { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; border: 1px solid #334364; background: #080d22; image-rendering: pixelated; }
+    .instructions { line-height: 1.8; color: #b9c9e6; }
+    kbd { color: #e4f7ff; font: inherit; }
+    button { padding: 12px 20px; border: 1px solid #73eed8; border-radius: 4px; color: #080d22; background: #73eed8; font: bold 16px monospace; cursor: pointer; }
+    button:focus-visible { outline: 3px solid #ffdc83; outline-offset: 4px; }
+    footer { color: #7185ad; margin-top: 24px; }
+    @media (max-width: 520px) { body { padding: 12px 8px; } header { display: block; } h1 { margin-bottom: 4px; } }
+  </style>
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><h1>STARSHIP</h1><p>Kosmoselaev · JKITEs25</p></header>
+    <canvas id="game" width="800" height="600" aria-label="StarShip: liiguta laeva, tulista vaenlasi ja kogu punkte.">
+      Mängimiseks on vaja HTML5 Canvas toega brauserit ja klaviatuuri.
+    </canvas>
+    <p class="instructions"><kbd>← →</kbd> või <kbd>A D</kbd> — liikumine · <kbd>Tühik</kbd> — tulistamine<br>
+      <kbd>P</kbd> — paus / jätkamine · <kbd>Enter</kbd> — uus katse pärast mängu lõppu</p>
+    <button id="restart" type="button" hidden>Uus katse</button>
+    <footer>IVKHK · JavaScripti õppeprojekt · Projekt StarShip 1–6</footer>
+  </main>
+</body>
+</html>
