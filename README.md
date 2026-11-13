@@ -93,3 +93,4 @@ Osade 2–6 allikad on vastavad DOCX-failid. Esimese osa originaalpilt puudub: s
 - [StarShip 2 — Kosmoselaeva juhtimine](parts/2/index.html): [päritolu ja kirjeldus](parts/2/README.md).
 - [StarShip 3 — Tulistamine](parts/3/index.html): [päritolu ja kirjeldus](parts/3/README.md).
 - [StarShip 4 — Vaenlaste lisamine](parts/4/index.html): [päritolu ja kirjeldus](parts/4/README.md).
+- [StarShip 5 — Tabamused ja punktid](parts/5/index.html): [päritolu ja kirjeldus](parts/5/README.md).
