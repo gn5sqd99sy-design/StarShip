@@ -81,4 +81,12 @@ Need testid ei asenda visuaalset brauserikontrolli. Töö käigus prooviti avada
 - `.gitignore` — välistab ajutised failid, varukoopiad ja ZIP-arhiivid.
 - `README.md` — käivitusjuhend ja projekti kirjeldus.
 
-Projekt on valmis eraldi GitHubi repositooriumi `StarShip` jaoks. Avaldamist ei ole kinnitatud: töö ajal polnud terminalist GitHubi võrguühendust ning GitHubi ühendus polnud aktiveeritud. Arkanoidi repositooriumi ei muudetud.
+Git remote on `https://github.com/gn5sqd99sy-design/StarShip.git`. Kohalik `origin/main` viitab algsele commitile `a6a4e49`; praegust GitHubi seisu ei saanud võrguühenduse puudumise tõttu uuesti kinnitada. Taastatud etappide uusi committe pole GitHubi saadetud. Arkanoidi repositooriumi ei muudetud.
+
+## Taastatud etapid ja commitid
+
+Algne commit `a6a4e49` sisaldas ainult ühendatud lõppversiooni. Eraldi ajaloolisi tööversioone ei leitud. Kaustade `parts/1`–`parts/6` versioonid taastatakse nüüd õpetaja materjalidest uute commitidena `StarShip 1`–`StarShip 6`; neid ei esitata algse arendusajaloo tõendina. Algset commiti ei kirjutata ümber ja juurkausta mäng jääb alles.
+
+Osade 2–6 allikad on vastavad DOCX-failid. Esimese osa originaalpilt puudub: selle taastamine põhineb teise osa tausta ja laeva joonistamisel ning ülesande kirjeldusel. Iga osa sisaldab päris käivitatavat HTML-i ja sellele etapile vastavat JavaScripti. Taastatud osade HTML-kestad on lisatud nüüd. Osades 1–5 on väli 640 × 480, osas 6 suurendatud 800 × 600; algsete osade HTML-mõõtmeid ei olnud võimalik kinnitada.
+
+- [StarShip 1 — Kosmoselaev](parts/1/index.html): [päritolu ja kirjeldus](parts/1/README.md).
